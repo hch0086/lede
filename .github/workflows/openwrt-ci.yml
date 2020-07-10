@@ -6835,7 +6835,7 @@ CONFIG_PACKAGE_tini=y
       - name: Compile firmware
         run: |
           make -j$(nproc) || make -j1 V=s
-		  echo "======================="
+	  echo "======================="
           echo "Space usage:"
           echo "======================="
           df -h
